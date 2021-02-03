@@ -5,6 +5,7 @@ The istioctl tool is a configuration command line utility that allows service op
 
 ## Install istioctl
 https://istio.io/latest/docs/ops/diagnostic-tools/istioctl/#install-hahahugoshortcode-s2-hbhb
+
 Install the istioctl binary with curl:
 
 1. Download the latest release with the command:
@@ -57,6 +58,7 @@ $ istioctl profile dump [<profile>] [flags]
 
 ## istioctl proxy-status
 https://istio.io/latest/docs/reference/commands/istioctl/#istioctl-proxy-status
+
 Get an overview of your mesh:
 ```
 $ istioctl proxy-status
@@ -64,6 +66,7 @@ $ istioctl proxy-status
 
 ## istioctl proxy-config
 https://istio.io/latest/docs/reference/commands/istioctl/#istioctl-proxy-config
+
 For example, to retrieve information about cluster configuration for the Envoy instance in a specific pod:
 ```
 $ istioctl proxy-config cluster <pod-name> [flags]
