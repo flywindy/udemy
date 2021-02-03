@@ -1,5 +1,6 @@
 # Upgrading Istio
 https://istio.io/latest/docs/setup/upgrade/
+
 *Upgrading across more than one minor version (e.g., 1.6.x to 1.8.x) in one step is not officially tested or recommended.*
 
 ## In-place Upgrades
